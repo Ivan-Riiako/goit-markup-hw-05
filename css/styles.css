@@ -67,9 +67,12 @@ a {
 color: var(--link-active);
 }
 
-.nav-list .current{
-    color:var(--link-active) ;
-}
+
+
+
+
+
+
 
 
 :root{
@@ -171,16 +174,26 @@ align-items:center;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--nav-color);
+    position: relative;
     
 }
 
-.li-nav {
+.nav-list>.li-nav {
     margin-left: 50px;
+    
 }
 
-.li-nav:first-child {
+.nav-list>.li-nav:first-child {
     margin-left: 0;
 }
+
+
+
+
+.current {
+    color: var(--link-active);
+}
+
 
 /* --------------CONTACTS --------------*/
 .contacts {
@@ -490,17 +503,66 @@ display: flex;
 .what-card{
     margin-left: var(--space-card);
     width: calc((100%/3)-(2*var(--space-card)));
+    position: relative;
+
+    transition-property:;
+    transition-duration: 250ms;
+    transition-timing-function:;
+    transition-delay: 150ms;
 }
 
 .what-card:first-child{
     margin-left: 0;
+    align-items: center;
 }
+
+
+
+.what-card:nth-child(1):hover {
+transform: scaleX(0.8) scaley(0.8);
+}
+/* Turn to 30deg */
+.what-card:nth-child(2):hover{
+
+ 
+transform: rotate(0.08turn) scale(0.9);
+}
+
+.what-card:nth-child(3):hover{
+    transform:skew( 45deg) scale(0.7);
+    
+}
+
 .img-what {
 width: 100%;
 display: block;
 
 }
 
+.what-descriptions{
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+display: inline-block;
+width: 100%;
+padding-bottom: 27px;
+padding-top: 27px;
+
+
+     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+    background-color: rgba(47, 48, 58, 0.8);
+
+    
+}
 /*-------------- OUR TEAM---------------*/
 
 .our-team{
