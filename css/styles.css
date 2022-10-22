@@ -505,10 +505,10 @@ display: flex;
     width: calc((100%/3)-(2*var(--space-card)));
     position: relative;
 
-    transition-property:;
-    transition-duration: 250ms;
-    transition-timing-function:;
-    transition-delay: 150ms;
+    transition: transform 250ms ease 125ms;
+   
+   
+   
 }
 
 .what-card:first-child{
@@ -519,18 +519,18 @@ display: flex;
 
 
 .what-card:nth-child(1):hover {
+
 transform: scaleX(0.8) scaley(0.8);
 }
 /* Turn to 30deg */
 .what-card:nth-child(2):hover{
-
  
 transform: rotate(0.08turn) scale(0.9);
 }
 
 .what-card:nth-child(3):hover{
-    transform:skew( 45deg) scale(0.7);
-    
+
+transform:skew( 45deg) scale(0.63);
 }
 
 .img-what {
