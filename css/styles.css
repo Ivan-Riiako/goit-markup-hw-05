@@ -302,6 +302,7 @@ width: calc((100%/3)-(2*var(--space-card)));
 /* outline:1px solid var(--project-card-border); */
 margin-left: var(--space-card);
 margin-bottom: var(--space-card);
+
 }
 .project-card:nth-child(3n+1){
     margin-left: 0;
@@ -315,6 +316,22 @@ margin-bottom: var(--space-card);
 .link-project:hover,.link-project:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+
+.thumb-img-project{
+position: relative;
+text-decoration: none;
+}
+
+
+.description-hover{
+    position: absolute;
+    text-decoration: none;
+
+    
+}
+
+
 
 .card-text{
 padding-top: 20px;
