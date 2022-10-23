@@ -919,11 +919,11 @@ height: 100%;
 background-color:rgba(0, 0, 0, 0.2) ;
 }
 
-/* .is-hidden{ */
-/* opacity: 0; */
-/* visibility: hidden; */
-/* pointer-events: none; */
-/* } */
+.is-hidden{
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
 .cancel{
 
 margin-left: auto;
@@ -939,6 +939,7 @@ margin-bottom: auto;
    display: flex;
    justify-content: center;
    align-items: center;
+   cursor: pointer;
 
 }
 
