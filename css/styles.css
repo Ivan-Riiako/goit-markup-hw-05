@@ -924,7 +924,7 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 }
-.cancel{
+.close{
 
 margin-left: auto;
 margin-bottom: auto;
@@ -939,6 +939,7 @@ margin-bottom: auto;
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: inherit;
    cursor: pointer;
 
 }
