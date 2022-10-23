@@ -578,7 +578,7 @@ perspective: 400px;
     width: calc((100%/3)-(2*var(--space-card)));
     position: relative;
 
-    transition: transform 500ms linear;
+    /* transition: transform 500ms linear; */
    
 }
 
@@ -587,21 +587,20 @@ perspective: 400px;
     align-items: center;
 }
 
-.what-card:nth-child(1):hover {
-    
-transform: scaleX(0.8) scaley(0.8);
-}
-
-/* Turn to 30deg */
-.what-card:nth-child(2):hover{
-   
-transform: rotatey(0.1turn) scale(0.9);
-}
-
-.what-card:nth-child(3):hover{
-   
-transform:skew( 32deg) scale(0.63);
-}
+/* .what-card:nth-child(1):hover { */
+/*      */
+/* transform: scaleX(0.8) scaley(0.8); */
+/* } */
+/*  */
+/* .what-card:nth-child(2):hover{ */
+/*     */
+/* transform: rotatey(0.1turn) scale(0.9); */
+/* } */
+/*  */
+/* .what-card:nth-child(3):hover{ */
+/*     */
+/* transform:skew( 32deg) scale(0.63); */
+/* } */
 
 .img-what {
 width: 100%;
