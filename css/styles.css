@@ -944,8 +944,9 @@ transition: transform 250ms linear;
 }
 
 .close {
-    margin-left: auto;
-    margin-bottom: auto;
+position: absolute;
+top:8px;
+right: 8px;
 
     height: 30px;
     width: 30px;
